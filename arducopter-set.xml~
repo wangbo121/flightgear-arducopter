@@ -80,8 +80,8 @@ Arducotper UAV Model
              left.add("/controls/engines/engine[3]/throttle");
              
              var right = screen.display.new(-250, 20);
-             right.add("/position/longitude-deg");
-             right.add("/position/latitude-deg");
+             right.add("/position/altitude-agl-ft");
+             right.add("/orientation/roll-deg");
              right.add("/orientation/pitch-deg");
              right.add("/orientation/heading-deg");
              right.add("/instrumentation/gps/indicated-ground-speed-kt");
