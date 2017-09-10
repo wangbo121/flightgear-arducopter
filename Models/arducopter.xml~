@@ -22,7 +22,7 @@
     <type>spin</type>
     <object-name>propeller0</object-name>
     <property>/controls/engines/engine[0]/throttle</property>
-    <factor>10000</factor>
+    <factor>1500</factor>
     <axis>
       <x1-m>0.000</x1-m>
       <y1-m>-0.288</y1-m>
@@ -41,7 +41,7 @@
     <type>spin</type>
     <object-name>propeller1</object-name>
     <property>/controls/engines/engine[1]/throttle</property>
-    <factor>10000</factor>
+    <factor>1500</factor>
     <axis>
       <x1-m>0.000</x1-m>
       <y1-m>0.288</y1-m>
@@ -60,7 +60,7 @@
     <type>spin</type>
     <object-name>propeller2</object-name>
     <property>/controls/engines/engine[2]/throttle</property>
-    <factor>10000</factor>
+    <factor>1500</factor>
     <axis>
       <x1-m>0.288</x1-m>
       <y1-m>0.000</y1-m>
@@ -79,7 +79,7 @@
     <type>spin</type>
     <object-name>propeller3</object-name>
     <property>/controls/engines/engine[3]/throttle</property>
-    <factor>10000</factor>
+    <factor>1500</factor>
     <axis>
       <x1-m>-0.288</x1-m>
       <y1-m>0.000</y1-m>

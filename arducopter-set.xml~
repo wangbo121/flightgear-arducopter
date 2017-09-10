@@ -73,14 +73,21 @@ Arducotper UAV Model
     <arducopter>
       <script>
          setlistener("/sim/signals/fdm-initialized", func {
-             var left  = screen.display.new(20, 10);
+             var left  = screen.display.new(20, 40);
              left.add("/controls/engines/engine[0]/throttle");
              left.add("/controls/engines/engine[1]/throttle");
              left.add("/controls/engines/engine[2]/throttle");
              left.add("/controls/engines/engine[3]/throttle");
+
+             var left_rpm = screen.display.new(-650, 40);
+             left_rpm.add("/engines/engine[0]/rpm");
+             left_rpm.add("/engines/engine[1]/rpm");
+             left_rpm.add("/engines/engine[2]/rpm");
+             left_rpm.add("/engines/engine[3]/rpm");
              
-             var right = screen.display.new(-250, 20);
-             right.add("/position/altitude-agl-ft");
+             var right = screen.display.new(-250, 40);
+             right.add("/position/longitude-deg");
+             right.add("/position/latitude-deg");
              right.add("/orientation/roll-deg");
              right.add("/orientation/pitch-deg");
              right.add("/orientation/heading-deg");
